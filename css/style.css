@@ -1,5 +1,6 @@
 /* General Styles */
 body {
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	transition: all 0.25s cubic-bezier(0.54, 0.12, 0.2, 1) 0s;
 }
@@ -46,7 +47,7 @@ h6 {
 }
 button {
 	color: #fff;
-	background: blue;
+	background: green;
 	padding: 6px 12px;
 	font-size: 14px;
 	cursor: pointer;
@@ -116,7 +117,7 @@ header {
 
 /* Section: Banner + Feature */
 .banner {
-	background: url("../images/banner.jpg") no-repeat scroll top center / cover;
+	background: url("../images/terracotta.jpg") no-repeat scroll top center / cover;
 	min-height: 250px;
 	clear: both;
 }
@@ -177,6 +178,7 @@ aside ul {
 }
 
 .box {
+	background-color: lightgreen;
 	width: 30%;
 	margin-right: 30px;
 	float: left;
